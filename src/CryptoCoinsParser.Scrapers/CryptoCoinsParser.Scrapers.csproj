@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\CryptoCoinsParser.Domain\CryptoCoinsParser.Domain.csproj"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux"/>
+        <PackageReference Include="OxyPlot.SkiaSharp"/>
+        <PackageReference Include="SkiaSharp"/>
+        <PackageReference Include="SkiaSharp.HarfBuzz"/>
+        <PackageReference Include="SkiaSharp.NativeAssets.Linux"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="CryptoCoinsParser.Application"/>
+    </ItemGroup>
+
+
+</Project>

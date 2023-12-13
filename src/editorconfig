@@ -1,0 +1,449 @@
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+indent_style = space
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
+# RS1024: Compare symbols correctly
+# https://github.com/dotnet/roslyn-analyzers/issues/3389
+dotnet_diagnostic.RS1024.severity = none
+
+# Code files
+[*.{cs,csx}]
+indent_size = 4
+insert_final_newline = true
+
+# Xml project files
+[*.csproj]
+indent_size = 2
+
+# Xml config files
+[*.{props,targets,ruleset,config,nuspec,resx,vsixmanifest,vsct}]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+### CSharp code style settings ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/
+[*.cs]
+
+# Organize usings
+dotnet_separate_import_directive_groups = false
+dotnet_sort_system_directives_first = true
+
+# Avoid "this." and "Me." if not necessary
+dotnet_style_qualification_for_field = false
+dotnet_style_qualification_for_property = false
+dotnet_style_qualification_for_method = false
+dotnet_style_qualification_for_event = false
+
+# Use language keywords instead of framework type names for type references
+dotnet_style_predefined_type_for_locals_parameters_members = true:warning
+dotnet_style_predefined_type_for_member_access = true:warning
+
+# Parentheses preferences
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:warning
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:warning
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:warning
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:warning
+
+# Modifier preferences
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:warning
+
+# Field preferences
+dotnet_style_readonly_field = true:warning
+
+# Parameter preferences
+dotnet_code_quality_unused_parameters = all:warning
+
+# Expression-level preferences
+dotnet_style_coalesce_expression = true:warning
+dotnet_style_collection_initializer = true:warning
+dotnet_style_explicit_tuple_names = true:warning
+dotnet_style_null_propagation = true:warning
+dotnet_style_object_initializer = true:warning
+dotnet_style_prefer_auto_properties = true:warning
+dotnet_style_prefer_compound_assignment = true:warning
+dotnet_style_prefer_simplified_boolean_expressions = true:warning
+csharp_style_prefer_pattern_matching = true:warning
+csharp_style_prefer_not_pattern = true:warning
+csharp_style_implicit_object_creation_when_type_is_apparent = true:warning
+dotnet_style_prefer_conditional_expression_over_assignment = true:warning
+dotnet_style_prefer_conditional_expression_over_return = true:warning
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:warning
+dotnet_style_prefer_inferred_tuple_names = true:warning
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
+dotnet_style_prefer_simplified_interpolation = true:warning
+
+# Dispose rules (CA2000 and CA2213) ported to IDE analyzers. We already execute the CA rules on the repo, so disable the IDE ones.
+dotnet_diagnostic.IDE0067.severity = none
+dotnet_diagnostic.IDE0068.severity = none
+dotnet_diagnostic.IDE0069.severity = none
+
+# Prefer "var" everywhere
+csharp_style_var_for_built_in_types = true:warning
+csharp_style_var_when_type_is_apparent = true:warning
+csharp_style_var_elsewhere = true:warning
+
+# Prefer method-like constructs to have a block body, except for lambdas
+csharp_style_expression_bodied_methods = false:none
+csharp_style_expression_bodied_constructors = false:none
+csharp_style_expression_bodied_operators = true:warning
+csharp_style_expression_bodied_properties = when_on_single_line:warning
+csharp_style_expression_bodied_accessors = when_on_single_line:warning
+csharp_style_expression_bodied_local_functions = true:warning
+csharp_style_expression_bodied_lambdas = true:warning
+
+# Prefer property-like constructs to have an expression-body
+csharp_style_expression_bodied_properties = true:warning
+csharp_style_expression_bodied_indexers = true:warning
+csharp_style_expression_bodied_accessors = true:warning
+
+# Pattern matching preferences
+csharp_style_pattern_matching_over_as_with_null_check = true:warning
+csharp_style_pattern_matching_over_is_with_cast_check = true:warning
+csharp_style_prefer_switch_expression = true:warning
+
+# Null-checking preferences
+csharp_style_conditional_delegate_call = true:warning
+
+# Modifier preferences
+csharp_prefer_static_local_function = true:warning
+csharp_preferred_modifier_order = public, private, protected, internal, file, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, required, volatile, async:warning
+
+# Code-block preferences
+csharp_prefer_braces = true:warning
+csharp_prefer_simple_using_statement = true:warning
+
+# Expression-level preferences
+csharp_style_unused_value_assignment_preference = discard_variable:warning
+csharp_prefer_simple_default_expression = true:warning
+csharp_style_deconstructed_variable_declaration = true:warning
+csharp_style_inlined_variable_declaration = true:warning
+csharp_style_pattern_local_over_anonymous_function = true:warning
+csharp_style_prefer_index_operator = true:warning
+csharp_style_prefer_range_operator = true:warning
+csharp_style_throw_expression = true:warning
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+
+#### C# Formatting Rules ####
+
+# New line preferences
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
+
+# Indentation preferences
+csharp_indent_block_contents = true
+csharp_indent_braces = false
+csharp_indent_case_contents = true
+csharp_indent_case_contents_when_block = true
+csharp_indent_labels = no_change
+csharp_indent_switch_labels = true
+
+# Space preferences
+csharp_space_after_cast = false
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_after_comma = true
+csharp_space_after_dot = false
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_around_binary_operators = before_and_after
+csharp_space_around_declaration_statements = true
+csharp_space_before_colon_in_inheritance_clause = true
+csharp_space_before_comma = false
+csharp_space_before_dot = false
+csharp_space_before_open_square_brackets = false
+csharp_space_before_semicolon_in_for_statement = false
+csharp_space_between_empty_square_brackets = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_parameter_list_parentheses = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+csharp_space_between_parentheses = false
+csharp_space_between_square_brackets = false
+
+# Single line preferences
+csharp_preserve_single_line_statements = true
+csharp_preserve_single_line_blocks = true
+
+### Configuration for IDE code style by diagnostic IDs ###
+[*.cs]
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = warning
+
+# CA1825: Avoid zero-length array allocations
+dotnet_diagnostic.CA1825.severity = warning
+
+# Default severity for all IDE code style rules with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = warning
+
+# Default severity for all IDE code quality rules with category 'CodeQuality'
+dotnet_analyzer_diagnostic.category-CodeQuality.severity = warning
+
+# IDE0001: Name can be simplified
+dotnet_diagnostic.IDE0001.severity = warning
+
+# IDE0002: member access can be simplified
+dotnet_diagnostic.IDE0002.severity = warning
+
+# IDE0003: Name can be simplified
+dotnet_diagnostic.IDE0003.severity = warning
+
+# IDE0005: Remove unnecessary import
+dotnet_diagnostic.IDE0005.severity = warning
+
+# IDE0007: Use 'var' instead of explicit type
+dotnet_diagnostic.IDE0007.severity = warning
+
+# IDE0010: Add missing cases in switch statement
+dotnet_diagnostic.IDE0010.severity = warning
+
+# IDE0017: Object initialization can be simplified
+dotnet_diagnostic.IDE0017.severity = warning
+
+# IDE0035: Remove unreachable code
+dotnet_diagnostic.IDE0035.severity = warning
+
+# IDE0045: 'if' statement can be simplified
+dotnet_diagnostic.IDE0045.severity = none
+
+# IDE0046: 'if' statement can be simplified
+dotnet_diagnostic.IDE0046.severity = none
+
+# IDE0048: Parentheses should be added for clarity
+dotnet_diagnostic.IDE0048.severity = warning
+
+# IDE0050: Convert anonymous type to tuple
+dotnet_diagnostic.IDE0050.severity = warning
+
+# IDE0051: Remove unused private member
+dotnet_diagnostic.IDE0051.severity = warning
+
+# IDE0052: Remove unread private member
+dotnet_diagnostic.IDE0052.severity = warning
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = warning
+
+# IDE0060: Remove unused parameter
+dotnet_diagnostic.IDE0060.severity = warning
+
+# IDE0065: Using directives must be placed outside of a namespace declaration
+# Can remove the below entry and turn it into a warning once https://github.com/dotnet/roslyn/issues/43271 is resolved.
+dotnet_diagnostic.IDE0065.severity = none
+
+# IDE0066: Convert switch statement to expression
+dotnet_diagnostic.IDE0066.severity = warning
+dotnet_diagnostic.CA1065.severity = warning
+
+# IDE0072: Populate switch
+dotnet_diagnostic.IDE0072.severity = none
+
+# IDE0082: Convert typeof to nameof
+dotnet_diagnostic.IDE0082.severity = warning
+
+# IDE0100: Remove unnecessary equality operator
+dotnet_diagnostic.IDE0100.severity = warning
+
+# IDE0110: Remove unnecessary discard
+dotnet_diagnostic.IDE0110.severity = warning
+
+# IDE0160: Convert to file-scoped namespace
+csharp_style_namespace_declarations = file_scoped:warning
+
+# IDE1006: Naming rule violation
+dotnet_diagnostic.IDE1006.severity = warning
+
+### Maintainability rules ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/maintainability-warnings
+[*.cs]
+
+# CA1502: Avoid excessive complexity
+dotnet_diagnostic.CA1502.severity = warning
+
+# CA1505: Avoid unmaintainable code
+dotnet_diagnostic.CA1505.severity = warning
+
+# CA1506: Avoid excessive class coupling
+dotnet_diagnostic.CA1506.severity = warning
+
+# CA1507: Use nameof in place of string
+dotnet_diagnostic.CA1507.severity = warning
+
+# CA1508: Avoid dead conditional code
+dotnet_diagnostic.CA1508.severity = warning
+
+### Performance rules ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/performance-warnings
+[*.cs]
+
+# CA1806: Do not ignore method results
+dotnet_diagnostic.CA1806.severity = warning
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = warning
+
+# CA1846: Prefer AsSpan over Substring
+dotnet_diagnostic.CA1846.severity = warning
+
+# CA1849: Call async methods when in an async method
+dotnet_diagnostic.CA1849.severity = warning
+
+### Reliability rules ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/reliability-warnings
+
+# CA2016: Forward the CancellationToken parameter to methods that take one
+dotnet_diagnostic.CA2016.severity = warning
+
+### Usage rules ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/usage-warnings
+[*.cs]
+
+# CA1801: Review unused parameters
+# This rule has been deprecated in favor of IDE0060 so it's suppressed.
+dotnet_diagnostic.CA1801.severity = none
+
+# CA2200: Rethrow to preserve stack details
+dotnet_diagnostic.CA2200.severity = warning
+
+# CA2201: Do not raise reserved exception types
+dotnet_diagnostic.CA2201.severity = warning
+
+# CA2208: Instantiate argument exceptions correctly
+dotnet_diagnostic.CA2208.severity = warning
+
+# CA2213: Disposable fields should be disposed
+dotnet_diagnostic.CA2213.severity = warning
+
+# CA2215: Dispose methods should call base class dispose
+dotnet_diagnostic.CA2215.severity = warning
+
+# CA2227: Collection properties should be read only
+dotnet_diagnostic.CA2227.severity = warning
+
+# CA2234: Pass System.Uri objects instead of strings
+dotnet_diagnostic.CA2234.severity = warning
+
+# CA2245: Do not assign a property to itself
+dotnet_diagnostic.CA2245.severity = warning
+
+# CA2250: Use ThrowIfCancellationRequested
+dotnet_diagnostic.CA2250.severity = suggestion
+
+# CA2252: Opt in to preview features before using them
+dotnet_diagnostic.CA2252.severity = error
+
+### Configuration for FxCop analyzers executed on this repo ###
+[*.cs]
+
+# Default analyzed API surface = 'all' (public APIs + non-public APIs)
+dotnet_code_quality.api_surface = all
+
+# Restrict the analyzed API surface for certain analyzers to 'public' (public APIs only).
+# CA1043: Use integral or string argument for indexers
+dotnet_code_quality.CA1043.api_surface = public
+# CA1707: Identifiers should not contain underscores
+dotnet_code_quality.CA1707.api_surface = public
+# CA1720: Identifiers should not contain type names
+dotnet_code_quality.CA1720.api_surface = public
+
+# Exclude single letter type parameter names
+# CA1715: Identifiers should have correct prefix
+dotnet_code_quality.CA1715.exclude_single_letter_type_parameters = true
+
+# CA1002: Do not expose generic lists
+dotnet_diagnostic.CA1002.severity = warning
+
+# CA1024: Use properties where appropriate
+dotnet_diagnostic.CA1024.severity = none
+
+# CA1033: Interface methods should be callable by child types
+dotnet_diagnostic.CA1033.severity = warning
+
+# CA1307: Specify StringComparison for clarity
+dotnet_diagnostic.CA1307.severity = warning
+
+# CA1711: Identifiers should not have incorrect suffix
+dotnet_diagnostic.CA1711.severity = warning
+
+# CA1309: Use ordinal string comparison
+dotnet_diagnostic.CA1309.severity = warning
+
+# CA1725: Parameter names should match base declaration
+dotnet_diagnostic.CA1725.severity = warning
+
+### Configuration for PublicAPI analyzers executed on this repo ###
+[*.cs]
+
+# Analyzers bail-out if the PublicAPI.*.txt file is not found
+dotnet_public_api_analyzer.require_api_files = true
+
+### Naming rules ###
+# Refer to the documentation https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/naming-rules
+
+[*.cs]
+
+# Styles
+dotnet_naming_style.pascal_case_style.capitalization = pascal_case
+
+dotnet_naming_style.prefix_camel_case.required_prefix = _
+dotnet_naming_style.prefix_camel_case.capitalization = camel_case
+
+dotnet_naming_style.end_in_async.required_suffix = Async
+dotnet_naming_style.end_in_async.capitalization = pascal_case
+
+# Symbol groups
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+
+dotnet_naming_symbols.constants.applicable_kinds = field
+dotnet_naming_symbols.constants.applicable_accessibilities = *
+dotnet_naming_symbols.constants.required_modifiers = const
+
+dotnet_naming_symbols.any_async_methods.applicable_kinds = method, local_function
+dotnet_naming_symbols.any_async_methods.applicable_accessibilities = *
+dotnet_naming_symbols.any_async_methods.required_modifiers = async
+
+# Naming rules
+
+# Private fields should be in _camelCase.
+dotnet_naming_rule.private_fields_must_start_with_prefix.symbols = private_fields
+dotnet_naming_rule.private_fields_must_start_with_prefix.style = prefix_camel_case
+dotnet_naming_rule.private_fields_must_start_with_prefix.severity = warning
+
+# Constants with any modifier should be in PascalCase.
+dotnet_naming_rule.constants_must_be_capitalized.symbols = constants
+dotnet_naming_rule.constants_must_be_capitalized.style = pascal_case_style
+dotnet_naming_rule.constants_must_be_capitalized.severity = warning
+
+# Async methods with any modifier should end with Async suffix.
+# TODO: doesn't work for non-async methods returning a Task
+dotnet_naming_rule.async_methonds_must_have_suffix.symbols = any_async_methods
+dotnet_naming_rule.async_methonds_must_have_suffix.style = end_in_async
+dotnet_naming_rule.async_methonds_must_have_suffix.severity = warning
+
+# Overrides
+
+[{*Tests,Program}.cs]
+dotnet_naming_rule.async_methonds_must_have_suffix.severity = none
+
+[Program.cs]
+# CA1506: Avoid excessive class coupling
+dotnet_diagnostic.CA1506.severity = none
+
+[*Tests.cs]
+dotnet_diagnostic.CA1054.severity = none
+dotnet_diagnostic.CA2201.severity = none
+dotnet_diagnostic.IDE0050.severity = none

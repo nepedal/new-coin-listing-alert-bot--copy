@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <RootNamespace>CryptoCoinsParser.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux"/>
+        <PackageReference Include="MediatR"/>
+        <PackageReference Include="AutoMapper"/>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Extensions"/>
+        <PackageReference Include="Microsoft.Extensions.Http"/>
+        <PackageReference Include="Microsoft.Extensions.Http.Polly"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions"/>
+        <PackageReference Include="OxyPlot.Core"/>
+        <PackageReference Include="OxyPlot.SkiaSharp"/>
+        <PackageReference Include="Polly"/>
+        <PackageReference Include="Scriban"/>
+        <PackageReference Include="Scrutor"/>
+        <PackageReference Include="SkiaSharp"/>
+        <PackageReference Include="SkiaSharp.HarfBuzz"/>
+        <PackageReference Include="SkiaSharp.NativeAssets.Linux"/>
+        <PackageReference Include="Telegram.Bot"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CryptoCoinsParser.Binance.Scraper\CryptoCoinsParser.Binance.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Bybit.Scraper\CryptoCoinsParser.Bybit.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Coinbase.Scraper\CryptoCoinsParser.Coinbase.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Domain\CryptoCoinsParser.Domain.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.KuCoin.Scraper\CryptoCoinsParser.KuCoin.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Okx.Scraper\CryptoCoinsParser.Okx.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Persistence\CryptoCoinsParser.Persistence.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Scrapers\CryptoCoinsParser.Scrapers.csproj"/>
+        <ProjectReference Include="..\Shared\Shared.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Resources\Localization\Localization.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Localization\Localization.ru-ru.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Localization.ru-ru.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Resources\Localization\Localization.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Localization.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Resources\Localization\Localization.ru-ru.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Localization.ru-ru.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+
+</Project>

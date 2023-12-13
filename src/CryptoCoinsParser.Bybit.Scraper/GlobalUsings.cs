@@ -1,0 +1,11 @@
+﻿global using System.Diagnostics.CodeAnalysis;
+global using System.Net.Http.Headers;
+global using CryptoCoinsParser.Bybit.Scraper.Services;
+global using CryptoCoinsParser.Scrapers.Interfaces;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using CryptoCoinsParser.Bybit.Scraper.Models;
+global using CryptoCoinsParser.Domain.Enums;
+global using CryptoCoinsParser.Scrapers.Models;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Linq;

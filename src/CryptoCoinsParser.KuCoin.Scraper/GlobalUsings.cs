@@ -1,0 +1,12 @@
+﻿global using CryptoCoinsParser.KuCoin.Scraper.Services;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Net.Http.Headers;
+global using CryptoCoinsParser.Domain.DbEntities;
+global using CryptoCoinsParser.Domain.Enums;
+global using CryptoCoinsParser.KuCoin.Scraper.Models;
+global using CryptoCoinsParser.Scrapers.Interfaces;
+global using CryptoCoinsParser.Scrapers.Models;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Linq;

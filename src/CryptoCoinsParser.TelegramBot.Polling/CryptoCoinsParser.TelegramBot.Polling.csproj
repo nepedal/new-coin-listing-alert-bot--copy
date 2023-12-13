@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>CryptoCoinsParser.TelegramBot.Polling</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+        <PackageReference Include="Telegram.Bot"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CryptoCoinsParser.Binance.Scraper\CryptoCoinsParser.Binance.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Coinbase.Scraper\CryptoCoinsParser.Coinbase.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Okx.Scraper\CryptoCoinsParser.Okx.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Bybit.Scraper\CryptoCoinsParser.Bybit.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.KuCoin.Scraper\CryptoCoinsParser.KuCoin.Scraper.csproj"/>
+        <ProjectReference Include="..\CryptoCoinsParser.Application\CryptoCoinsParser.Application.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="appsettings.json">
+            <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="WantPracticeLanguage" xml:space="preserve">
+        <value>Хотите практиковать язык &lt;b&gt;{0}&lt;/b&gt;?</value>
+    </data>
+    <data name="AlreadyRegistered" xml:space="preserve">
+        <value>Вы уже зарегистрированы!</value>
+    </data>
+    <data name="ButtonTextIAmReady" xml:space="preserve">
+        <value>Я ГОТОВ(А) 🚀</value>
+    </data>
+    <data name="ButtonTextNo" xml:space="preserve">
+        <value>НЕТ</value>
+    </data>
+    <data name="ButtonTextYes" xml:space="preserve">
+        <value>ДА</value>
+    </data>
+    <data name="LanguageIsNotRecognized" xml:space="preserve">
+        <value>Язык не был распознан, убедитесь, что он написан правильно</value>
+    </data>
+    <data name="SelectMeetingLanguageYouWouldLikeToPractice" xml:space="preserve">
+        <value>Пожалуйста, выберите язык который вы хотите практиковать</value>
+    </data>
+    <data name="LanguageSet" xml:space="preserve">
+        <value>Для встреч был установлен  язык &lt;b&gt;{0} &lt;/b&gt;</value>
+    </data>
+    <data name="PracticeEnglishAsking" xml:space="preserve">
+        <value>Хотите практиковать &lt;b&gt;Английский&lt;/b&gt; язык?</value>
+    </data>
+    <data name="CMLanguageLevelAsk" xml:space="preserve">
+        <value>Хотите создать встречу уровня &lt;b&gt;{0}&lt;/b&gt;?</value>
+    </data>
+    <data name="ButtonTextCancel" xml:space="preserve">
+        <value>ОТМЕНИТЬ</value>
+    </data>
+    <data name="ShowAllMeetings" xml:space="preserve">
+        <value>СПИСОК ВСТРЕЧЬ ЗА {0}</value>
+    </data>
+    <data name="SelectTopic" xml:space="preserve">
+        <value>&lt;b&gt;Пожалуйста, выберите тему: ⤵&lt;/b&gt;</value>
+    </data>
+    <data name="ButtonTextRandomTopic" xml:space="preserve">
+        <value>СЛУЧАЙНАЯ ТЕМА</value>
+    </data>
+    <data name="ViewTopicQuestions" xml:space="preserve">
+        <value>Какую тему хотели бы обсуждать на онлайн встрече? Выберите тему чтобы просмотреть вопросы:</value>
+    </data>
+    <data name="SelectMeetingTime" xml:space="preserve">
+        <value>На какое время создать онлайн встречу?</value>
+    </data>
+    <data name="SelectMeetingLanguageLevel" xml:space="preserve">
+        <value>Выберите уровень языка для встречи: ⤵</value>
+    </data>
+    <data name="HowManyPeople" xml:space="preserve">
+        <value>На сколько участников Вы хотели бы создать онлайн встречу?</value>
+    </data>
+    <data name="DbUpdateException" xml:space="preserve">
+        <value> ❌ Не разрешается создавать несколько онлайн встреч с одинаковой датой и временем, попробуйте указать другое время. ❌
+
+Вами были введены следующие данные:</value>
+    </data>
+    <data name="MeetingCreated" xml:space="preserve">
+        <value>&lt;b&gt;&lt;u&gt;Онлайн встреча создана. Мы сообщим вам, когда кто-нибудь присоединится к встрече!&lt;/u&gt;&lt;/b&gt;</value>
+    </data>
+    <data name="ButtonTextPickAnotherDate" xml:space="preserve">
+        <value>📅 ВЫБРАТЬ ДРУГУЮ ДАТУ</value>
+    </data>
+    <data name="ButtonTextPickAnotherTime" xml:space="preserve">
+        <value>🕑 ВЫБРАТЬ ДРУГОЕ ВРЕМЯ</value>
+    </data>
+    <data name="ButtonTextConfirm" xml:space="preserve">
+        <value>ВЫБРАТЬ ЭТУ ТЕМУ</value>
+    </data>
+    <data name="SelectMeetingDate" xml:space="preserve">
+        <value>Выберите дату встречи: ⤵</value>
+    </data>
+    <data name="SelectOneOfLanguages" xml:space="preserve">
+        <value>Выберите один из языков чтобы создать встречу: ⤵</value>
+    </data>
+    <data name="JMSelectLanguageLevel" xml:space="preserve">
+        <value>Хотите присоединиться к встречи уровня &lt;b&gt;{0}&lt;/b&gt;?</value>
+    </data>
+    <data name="AlreadyJoined" xml:space="preserve">
+        <value>Вы уже состоите в этой встрече</value>
+    </data>
+    <data name="ButtonTextPickAnotherLanguage" xml:space="preserve">
+        <value>ВЫБРАТЬ ДРУГОЙ ЯЗЫК</value>
+    </data>
+    <data name="ButtonTextPickAnotherLanguageLevel" xml:space="preserve">
+        <value>ВЫБРАТЬ ДРУГОЙ УРОВЕНЬ</value>
+    </data>
+    <data name="NoMatchingMeetings" xml:space="preserve">
+        <value>&lt;b&gt;К сожалению не найдено встреч по вашим предпочтениям за {0}.&lt;/b&gt;🙄
+</value>
+    </data>
+    <data name="SelectMeetingLanguage" xml:space="preserve">
+        <value>Выберите язык встречи: ⤵</value>
+    </data>
+    <data name="MeetingNotFound" xml:space="preserve">
+        <value>Встреча не найдена.</value>
+    </data>
+    <data name="MeetingAlreadyCanceled" xml:space="preserve">
+        <value>Встреча уже отменена</value>
+    </data>
+    <data name="MeetingCanceled" xml:space="preserve">
+        <value>❌  Встреча &lt;b&gt;#{0}&lt;/b&gt; отменена. ❌ 
+</value>
+    </data>
+    <data name="CantLeaveMeeting" xml:space="preserve">
+        <value>Вы не можете покинуть встречу не являясь участником</value>
+    </data>
+    <data name="OperationDeclined" xml:space="preserve">
+        <value>Операциия отменена</value>
+    </data>
+    <data name="ContactUs" xml:space="preserve">
+        <value>Если у вас возникли вопросы, просим обращаться {0} </value>
+    </data>
+    <data name="InitialMessage" xml:space="preserve">
+        <value>Привет✋
+
+Я помогу тебе найти партнера твоего уровня и интересов для практики иностранных языков в Google Meet. 
+
+Прежде чем мы начнем, нужно предоставить некоторую информацию.</value>
+    </data>
+    <data name="LanguageLevelSet" xml:space="preserve">
+        <value>Уровень языка {0} успешно установлен</value>
+    </data>
+    <data name="TitleTextSelectLanguageLevel" xml:space="preserve">
+        <value>Выберите ваш текущий уровень языка</value>
+    </data>
+    <data name="ButtonTextShowAllLevels" xml:space="preserve">
+        <value>ПОКАЗАТЬ ВСТЕЧИ ВСЕХ УРОВНЕЙ</value>
+    </data>
+    <data name="UserLeftMeetingTemplate" xml:space="preserve">
+        <value>🌍 Пользователь &lt;b&gt;{{ username}} #{{ meeting.user_id }}&lt;/b&gt; покинул встречу.
+
+ 📌 &lt;b&gt;&lt;u&gt;Встреча #{{ meeting.meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 📅 &lt;b&gt;Дата:&lt;/b&gt; {{practice_date }} 
+
+ 🕑 &lt;b&gt;Время:&lt;/b&gt; {{practice_time}}  {{ time_zone }}</value>
+    </data>
+    <data name="CreateMeetingTemplate" xml:space="preserve">
+        <value>🌍 &lt;b&gt;{{ title }}&lt;/b&gt;
+
+ 📌 &lt;b&gt;&lt;u&gt;Встреча #{{ meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 🌐 &lt;b&gt;Язык:&lt;/b&gt; &lt;u&gt;{{ language_name }}&lt;/u&gt;
+
+ 🗒 &lt;b&gt;Уровень языка:&lt;/b&gt; &lt;u&gt;{{ language_level }}&lt;/u&gt;
+
+ 💬 &lt;b&gt;Тема:&lt;/b&gt; &lt;u&gt;{{ topic }}&lt;/u&gt;
+
+ 👨‍👩‍👧‍👦 &lt;b&gt;Максимальное количество участников:&lt;/b&gt; &lt;u&gt;{{ people_number }}&lt;/u&gt;
+
+ 📅 &lt;b&gt;Дата:&lt;/b&gt; &lt;u&gt;{{ date }} &lt;/u&gt;
+
+ 🕑 &lt;b&gt;Время:&lt;/b&gt; &lt;u&gt;{{ time }} &lt;/u&gt;  {{ time_zone }}</value>
+    </data>
+    <data name="QuestionsTemplate" xml:space="preserve">
+        <value>
+&lt;b&gt;Тема встречи {{ topic_name }} &lt;/b&gt; 
+&lt;b&gt;Описание {{ topic_description }} &lt;/b&gt;</value>
+    </data>
+    <data name="YouJoinedMeeting" xml:space="preserve">
+        <value>🌍 &lt;b&gt;&lt;u&gt;Вы присоединились к встрече!&lt;/u&gt;&lt;/b&gt;
+</value>
+    </data>
+    <data name="UserJoinedMeeting" xml:space="preserve">
+        <value>🌍 Пользователь &lt;b&gt;{{ user_name }} #{{ user_id }}&lt;/b&gt;  присоединился к встрече.
+
+ 📌 &lt;b&gt;&lt;u&gt;Встреча #{{ meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 📅 &lt;b&gt;Дата:&lt;/b&gt; {{ practice_date }} 
+
+ 🕑 &lt;b&gt;Время:&lt;/b&gt; {{ practice_time }}  {{ time_zone }}</value>
+    </data>
+    <data name="LocationSet" xml:space="preserve">
+        <value>Местоположение успешно обновлено, ваше местоположение: &lt;b&gt;{0}&lt;/b&gt;, часовой пояс: &lt;b&gt;{1}&lt;/b&gt; . 
+
+Вы всегда можете изменить свое местоположение, выполнив команду {2}</value>
+    </data>
+    <data name="UnableResolveLocation" xml:space="preserve">
+        <value>Не удается определить местоположение, пожалуйста, попробуйте позже</value>
+    </data>
+    <data name="CouldNotResolveLocation" xml:space="preserve">
+        <value>Не удалось определить ваше местоположение. 
+Введите ваше местоположение в поле ввода сообщения в следующем формате: &lt;b&gt;Страна, Город&lt;/b&gt;, например: &lt;b&gt;США, Нью-Йорк&lt;/b&gt;
+</value>
+    </data>
+    <data name="CreateMeetingAskLocation" xml:space="preserve">
+        <value>Для того чтобы иметь возможность показывать &lt;b&gt;дату и время онлайн-встречи в вашем часовом поясе&lt;/b&gt; и &lt;b&gt;показывать страну партнеров&lt;/b&gt;, нам необходимо знать ваше местоположение.
+
+Введите ваше местоположение в поле ввода сообщения в следующем формате: &lt;b&gt;Страна, Город&lt;/b&gt;, например: &lt;b&gt;США, Нью-Йорк&lt;/b&gt;        </value>
+    </data>
+    <data name="HelpFindPartner" xml:space="preserve">
+        <value>Я могу помочь вам найти партнера для разговорной практики.
+
+Вы можете управлять мной, посылая следующие команды:</value>
+    </data>
+    <data name="WhatWouldYouLikeToChange" xml:space="preserve">
+        <value>Что вы хотели бы поменять?</value>
+    </data>
+    <data name="DescriptionCreateMeeting" xml:space="preserve">
+        <value>СОЗДАТЬ ВСТРЕЧУ</value>
+    </data>
+    <data name="DescriptionRandomTopic" xml:space="preserve">
+        <value>Случайная тема с вопросами</value>
+    </data>
+    <data name="DescriptionJoinMeeting" xml:space="preserve">
+        <value>ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</value>
+    </data>
+    <data name="DescriptionMyMeetings" xml:space="preserve">
+        <value>МОИ ВСТРЕЧИ</value>
+    </data>
+    <data name="DescriptionSettings" xml:space="preserve">
+        <value>НАСТРОЙКИ</value>
+    </data>
+    <data name="DescriptionSetMeetingLanguage" xml:space="preserve">
+        <value>УСТАНОВИТЬ ЯЗЫК ПРАКТИКИ</value>
+    </data>
+    <data name="DescriptionSetMeetingLanguageLevel" xml:space="preserve">
+        <value>УСТАНОВИТЬ УРОВЕНЬ ЯЗЫКА</value>
+    </data>
+    <data name="DescriptionSetYourLocation" xml:space="preserve">
+        <value>УСТАНОВИТЬ МЕСТОПОЛОЖЕНИЕ</value>
+    </data>
+    <data name="DescriptionContactUs" xml:space="preserve">
+        <value>Связаться с нами</value>
+    </data>
+    <data name="DescriptionSetGender" xml:space="preserve">
+        <value>УСТАНОВИТЬ ПОЛ</value>
+    </data>
+    <data name="ButtonTextFemale" xml:space="preserve">
+        <value>ЖЕНСКИЙ</value>
+    </data>
+    <data name="ButtonTextMale" xml:space="preserve">
+        <value>МУЖСКОЙ</value>
+    </data>
+    <data name="ButtonTextSkipGender" xml:space="preserve">
+        <value>ПРЕДПОЧИТАЮ НЕ УПОМИНАТЬ</value>
+    </data>
+    <data name="GenderText" xml:space="preserve">
+        <value>Установить пол</value>
+    </data>
+    <data name="GenderSet" xml:space="preserve">
+        <value>Пол &lt;b&gt;{0}&lt;/b&gt; успешно установлен.</value>
+    </data>
+    <data name="ButtonTextLeaveMeeting" xml:space="preserve">
+        <value>ПОКИНУТЬ ВСТРЕЧУ</value>
+    </data>
+    <data name="ViewMeetingTemplate" xml:space="preserve">
+        <value>📌 &lt;b&gt;&lt;u&gt;Встреча #{{ meeting.id }}&lt;/u&gt;&lt;/b&gt; 
+
+📅 &lt;b&gt;Дата:&lt;/b&gt; &lt;u&gt;{{ meeting.date }} &lt;/u&gt;
+
+🕑 &lt;b&gt;Время:&lt;/b&gt; &lt;u&gt;{{ meeting.time }}&lt;/u&gt; {{ meeting.time_zone }}
+
+🌐 &lt;b&gt;Язык:&lt;/b&gt; &lt;u&gt;{{ meeting.language }}&lt;/u&gt;
+
+🗒 &lt;b&gt;Уровень языка:&lt;/b&gt; &lt;u&gt;{{ meeting.language_level }}&lt;/u&gt;
+
+{{if(meeting.topic_name == null)}}💬 &lt;b&gt;Тема:&lt;/b&gt; &lt;u&gt;Тема не выбрана&lt;/u&gt;{{else}}💬 &lt;b&gt;Тема:&lt;/b&gt; &lt;u&gt;{{ meeting.topic_name }}&lt;/u&gt;{{end}}
+
+👨‍👩‍👧‍👦 &lt;b&gt;Свободно&lt;/b&gt; &lt;u&gt;{{ meeting.max_participants_count - meeting.participants_count }} &lt;/u&gt; &lt;b&gt;из&lt;/b&gt; &lt;u&gt;{{ meeting.max_participants_count }} &lt;/u&gt; &lt;b&gt;мест&lt;/b&gt;
+
+🏞 &lt;b&gt;Создатель&lt;/b&gt; {{ meeting.user_id }} из &lt;u&gt;{{ meeting.creator_country }}, {{ meeting.creator_gender }}&lt;/u&gt;</value>
+    </data>
+    <data name="ButtonTextJoin" xml:space="preserve">
+        <value>ПРИСОЕДИНИТСЯ</value>
+    </data>
+    <data name="GenderNotSet" xml:space="preserve">
+        <value>Не установлен</value>
+    </data>
+    <data name="GenderFemale" xml:space="preserve">
+        <value>Женский</value>
+    </data>
+    <data name="GenderMale" xml:space="preserve">
+        <value>Мужской</value>
+    </data>
+    <data name="AuthorizeWithGoogle" xml:space="preserve">
+        <value>В Lingo Practices мы автоматизируем процессы, чтобы сделать пользовательский интерфейс максимально удобным.
+
+В рамках автоматизации Lingo Practices автоматически создает встречи Google Meet, что избавляет от необходимости самостоятельно создавать онлайн-встречи и договариваться о том, какую платформу использовать для онлайн конференций.</value>
+    </data>
+    <data name="AuthorizeWithGoogleSuccess" xml:space="preserve">
+        <value>Поздравляем!
+
+Теперь вы можете создавать неограниченное количество встреч для практики языка!</value>
+    </data>
+    <data name="GoogleMeetTitle" xml:space="preserve">
+        <value>Разговорная практика</value>
+    </data>
+    <data name="AlreadyAuthorizedWithGoogle" xml:space="preserve">
+        <value>Вы уже авторизованы с помощью Google аккаунта</value>
+    </data>
+    <data name="StartBotCommand" xml:space="preserve">
+        <value>Выполните команду {0} для запуска бота.
+</value>
+    </data>
+    <data name="LogIn" xml:space="preserve">
+        <value>Войти в Google аккаунт</value>
+    </data>
+    <data name="ButtonTextNext" xml:space="preserve">
+        <value>СЛЕДУЮЩАЯ ТЕМА ➡️</value>
+    </data>
+    <data name="ForgotToProvideCalendarPermissions" xml:space="preserve">
+        <value>По всей видимости вы не предоставили доступ к календарю🤔
+
+Чтобы мы могли создавать Google Meet встречи от вашего имени нам нужен доступ к вашему календарю.
+
+Пожалуйста,  предоставьте доступ к календарю😎</value>
+    </data>
+    <data name="SomethingWentWrong" xml:space="preserve">
+        <value>Что-то пошло не так, мы уже работаем над устранением этой ошибки. Попробуйте еще раз. Если ошибка повторяется, просим обратиться к {0}</value>
+    </data>
+    <data name="DescriptionSetInterfaceLanguage" xml:space="preserve">
+        <value>УСТАНОВИТЬ ЯЗЫК ИНТЕРФЕЙСА</value>
+    </data>
+    <data name="InterfaceLanguageSet" xml:space="preserve">
+        <value>Язык интерфейса успешно установлен. </value>
+    </data>
+    <data name="AvailableUILanguages" xml:space="preserve">
+        <value>Доступные языки интерфейса.</value>
+    </data>
+    <data name="JoinGoogleMeetMeeting" xml:space="preserve">
+        <value>ПОДКЛЮЧИТСЯ К ВСТРЕЧЕ GOOGLE MEET</value>
+    </data>
+    <data name="ButtonTextViewTopicQuestions" xml:space="preserve">
+        <value>ПОСМОТРЕТЬ ВОПРОСЫ К ВСТРЕЧЕ</value>
+    </data>
+    <data name="NotPendingMeetings" xml:space="preserve">
+        <value>У вас пока нет активных встреч</value>
+    </data>
+    <data name="SettingGenderTitle" xml:space="preserve">
+        <value>Установить пол</value>
+    </data>
+    <data name="ButtonTextCreateNewMeeting" xml:space="preserve">
+        <value>СОЗДАТЬ НОВУЮ ВСТРЕЧУ</value>
+    </data>
+    <data name="CantJoinMeetingSameTime" xml:space="preserve">
+        <value>❌Вы не можете присоединиться к встрече так как у вас уже есть встреча на эту дату и время❌</value>
+    </data>
+    <data name="SelectAnotherMeeting" xml:space="preserve">
+        <value>Выбрать другую встречу</value>
+    </data>
+    <data name="DescriptionCreateTopic" xml:space="preserve">
+        <value>СОЗДАТЬ СВОЮ ТЕМУ</value>
+    </data>
+    <data name="TitleTextUserTriedAddTopic" xml:space="preserve">
+        <value>{0} хочет добавить тему &lt;b&gt;&lt;u&gt;{1}&lt;/u&gt;&lt;/b&gt;, разрешить?</value>
+    </data>
+    <data name="TitleTextWriteTopicName" xml:space="preserve">
+        <value>Пожалуйста, введите название темы.</value>
+    </data>
+    <data name="TitleTextTopicAlreadyExist" xml:space="preserve">
+        <value>Тема с таким названием уже существует</value>
+    </data>
+    <data name="TitleTextTopicCreated" xml:space="preserve">
+        <value>Тема с названием &lt;b&gt;{0}&lt;/b&gt; успешно создана.
+Хотите добавить вопрос к теме?</value>
+    </data>
+    <data name="TopicQuestionAdded" xml:space="preserve">
+        <value>Вопрос &lt;b&gt;&lt;u&gt;{0}&lt;/u&gt;&lt;/b&gt; успешно добавлен к теме</value>
+    </data>
+    <data name="TitleTextWriteTopicQuestion" xml:space="preserve">
+        <value>Пожалуйста, введите вопрос который вы хотите добавить</value>
+    </data>
+    <data name="TitleTextThankYou" xml:space="preserve">
+        <value>Спасибо, что делаете нас лучше!</value>
+    </data>
+    <data name="ButtonTextAddQuestion" xml:space="preserve">
+        <value>ДОБАВИТЬ ВОПРОС</value>
+    </data>
+    <data name="ButtonTextAddOneMore" xml:space="preserve">
+        <value>ДОБАВИТЬ ЕЩЕ</value>
+    </data>
+    <data name="ButtonTextComplete" xml:space="preserve">
+        <value>ЗАВЕРШИТЬ</value>
+    </data>
+    <data name="ButtonTextTryAgainTopicName" xml:space="preserve">
+        <value>ИЗМЕНИТЬ НАЗВАНИЕ ТЕМЫ</value>
+    </data>
+    <data name="TitleTextCantApproveQuestion" xml:space="preserve">
+        <value>К сожалению мы не можем утвердить это вопрос &lt;b&gt;{0}&lt;/b&gt;.</value>
+    </data>
+    <data name="TitleTextQuestionIsOnModerating" xml:space="preserve">
+        <value>Вопрос проходит модерацию.</value>
+    </data>
+    <data name="TitleTextUserWantsAddQuestion" xml:space="preserve">
+        <value>{0} хочет добавить вопрос  &lt;b&gt;&lt;u&gt;{1}&lt;/u&gt;&lt;/b&gt;, разрешить?</value>
+    </data>
+    <data name="TitleTextCantApproveTopic" xml:space="preserve">
+        <value>К сожалению мы не можем утвердить тему &lt;b&gt;({0})&lt;/b&gt; с таким названием, попробуйте другую.</value>
+    </data>
+    <data name="CreatorCancelledMeeting" xml:space="preserve">
+        <value>🌍 Пользователь &lt;b&gt;{{username}}&lt;/b&gt; #&lt;b&gt;{{ user_id }}&lt;/b&gt; отменил(а) встречу.
+
+</value>
+    </data>
+    <data name="TitleTextTopicNameOnModerating" xml:space="preserve">
+        <value>Ваша тема находится на модерации. После того, как мы рассмотрим вашу тему, вы получите уведомление о результатах модерации.</value>
+    </data>
+    <data name="SignUpSuccess" xml:space="preserve">
+        <value>Итак, как именно все это работает? Все очень просто! Все, что вам нужно сделать, это присоединиться к любой понравившейся вам встрече. Если вам ничего не приглянулось, вы всегда можете создать свою собственную встречу, выбрав язык, уровень языка, дату, время, тему, и количество участников. Здесь вы можете быть сами себе начальником 😎
+
+Мы уведомим вас, если кто-либо создаст встречу с тем же языком и языковым уровнем, которые вы указали на предыдущих шагах, но вы всегда можете изменить свои настройки уведомлений посетив страницу настроек.
+
+Счастливой практики!😊</value>
+    </data>
+    <data name="ButtonTextNextMonth" xml:space="preserve">
+        <value>СЛЕДУЮЩИЙ МЕСЯЦ ➡️</value>
+    </data>
+    <data name="TitleTextTopicNotSelected" xml:space="preserve">
+        <value>Тема не выбрана</value>
+    </data>
+    <data name="ButtonTextWithoutTopic" xml:space="preserve">
+        <value>БЕЗ ТЕМЫ</value>
+    </data>
+    <data name="ButtonTextTryAgainTopicQuestion" xml:space="preserve">
+        <value>ИЗМЕНИТЬ ВОПРОС</value>
+    </data>
+    <data name="ButtonTextSetNotificationPreferences" xml:space="preserve">
+        <value>УВЕДОМЛЕНИЯ</value>
+    </data>
+    <data name="TitleTextNotificationCreated" xml:space="preserve">
+        <value>Уведомление создано, мы обязательно сообщим, если будет подходящая встреча!
+Хотели бы вы добавить еще одно уведомление?</value>
+    </data>
+    <data name="TitleTextNotificationAlreadyExist" xml:space="preserve">
+        <value>Уведомление с такими параметрами уже существует. 
+Хотите создать другое уведомление?</value>
+    </data>
+    <data name="TitleTextNotificationPreferences" xml:space="preserve">
+        <value>Выберите один или несколько уровней которые вы практикуете, мы уведомим вас когда кто-то создаст встречу по указанным уровням</value>
+    </data>
+    <data name="SelectLanguageNotificationPreferences" xml:space="preserve">
+        <value>Выберите язык который вы практикуете, мы уведомим вас когда кто-то создаст встречу по указанному языку</value>
+    </data>
+    <data name="ButtonTextNextMeeting" xml:space="preserve">
+        <value>СЛЕДУЮЩАЯ ВСТРЕЧА ➡️</value>
+    </data>
+    <data name="ButtonTextPreviousMeeting" xml:space="preserve">
+        <value>⬅ ПРЕДЫДУЩАЯ ВСТРЕЧА</value>
+    </data>
+    <data name="ButtonTextNextTopics" xml:space="preserve">
+        <value>СЛЕДУЮЩИЕ ТЕМЫ ➡️</value>
+    </data>
+    <data name="ButtonTextPreviousTopics" xml:space="preserve">
+        <value>⬅️ ПРЕДЫДУЩИЕ ТЕМЫ</value>
+    </data>
+    <data name="ButtonTextPreviousMonth" xml:space="preserve">
+        <value>⬅️ ПРЕДЫДУЩИЙ МЕСЯЦ</value>
+    </data>
+    <data name="NoFreePlacesWhenJoin" xml:space="preserve">
+        <value>❌Вы не можете присоединиться к встрече, потому что нет свободных мест❌
+&lt;u&gt;&lt;b&gt;Вы всегда можете создать свою собственную встречу.&lt;/b&gt;&lt;/u&gt;</value>
+    </data>
+    <data name="TitleTextPreferncesEdited" xml:space="preserve">
+        <value>
+
+Уведомления &lt;u&gt;{0}, {1}&lt;/u&gt; {2}</value>
+    </data>
+    <data name="ButtonTextToSettingMenu" xml:space="preserve">
+        <value>НАЗАД К НАСТРОЙКАМ</value>
+    </data>
+    <data name="DescriptionTextSetGender" xml:space="preserve">
+        <value>УСТАНОВИТЬ ПОЛ</value>
+    </data>
+    <data name="ButtonTextSetUp" xml:space="preserve">
+        <value>НАСТРОИТЬ</value>
+    </data>
+    <data name="ButtonTextGoToMenu" xml:space="preserve">
+        <value>ПЕРЕЙТИ К МЕНЮ</value>
+    </data>
+    <data name="ButtonTextChangeNotification" xml:space="preserve">
+        <value>НАСТРОИТЬ УВЕДОМЛЕНИЯ</value>
+    </data>
+    <data name="CantJoinMeetingIsInProgressOrEnded" xml:space="preserve">
+        <value>К сожалению, вы не можете присоединиться к встрече, так как она уже в процессе или закончилась.</value>
+    </data>
+    <data name="ButtonTextIWillJoinNextTime" xml:space="preserve">
+        <value>ПРИСОЕДИНЮСЬ В СЛЕДУЮЩИЙ РАЗ</value>
+    </data>
+    <data name="MessageTextSetLocation" xml:space="preserve">
+        <value>Для того, чтобы я мог показывать дату и время встреч в вашем часовом поясе, мне нужно знать ваше местоположение.
+
+Вы можете установить местоположение, выполнив команду /setlocation.</value>
+    </data>
+    <data name="NotificationsDisabled" xml:space="preserve">
+        <value>&lt;b&gt;отключены&lt;/b&gt;</value>
+    </data>
+    <data name="NotificationsEnabled" xml:space="preserve">
+        <value>&lt;b&gt;включены&lt;/b&gt;</value>
+    </data>
+    <data name="CouldNotCreateGoogleMeetMeeting" xml:space="preserve">
+        <value>Не удалось создать встречу Google Meet,
+попробуйте чуть позже или попробуйте авторизоваться заново с помощью Google.</value>
+    </data>
+    <data name="ButtonTextTurnOffNotifications" xml:space="preserve">
+        <value>ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</value>
+    </data>
+    <data name="TitleTextTurnOffNotificationFor" xml:space="preserve">
+        <value>Отключить уведомления на:</value>
+    </data>
+    <data name="ButtonTextOneDay" xml:space="preserve">
+        <value>ОДИН ДЕНЬ</value>
+    </data>
+    <data name="ButtonTextOneWeek" xml:space="preserve">
+        <value>ОДНУ НЕДЕЛЮ</value>
+    </data>
+    <data name="ButtonTextOneMonth" xml:space="preserve">
+        <value>ОДИН МЕСЯЦ</value>
+    </data>
+    <data name="TitleTextMeetingNotificationTurnedOff" xml:space="preserve">
+        <value>Все уведомления о появлении новых встреч отключены на {0}</value>
+    </data>
+    <data name="TitleTextTurnOnNotificationQuestion" xml:space="preserve">
+        <value>Хотите включить уведомления по предпочтениям?</value>
+    </data>
+    <data name="ButtonTextYesTurnOn" xml:space="preserve">
+        <value>ДА, ВКЛЮЧИТЬ</value>
+    </data>
+    <data name="JoinMeetingCanceled" xml:space="preserve">
+        <value>Создатель встречи&lt;b&gt;отменил встречу&lt;/b&gt;. 
+&lt;u&gt;&lt;b&gt;Вы всегда можете создать свою собственную встречу.&lt;/b&gt;&lt;/u&gt;</value>
+    </data>
+    <data name="MeetingAlreadyBegun" xml:space="preserve">
+        <value>Нельзя покинуть встречу которая уже началась или закончилаись.</value>
+    </data>
+    <data name="RequestLimitMessage" xml:space="preserve">
+        <value>Пожалуйста, подождите, мы все еще обрабатываем ваш запрос.</value>
+    </data>
+    <data name="ButtonTextGoBack" xml:space="preserve">
+        <value>НАЗАД</value>
+    </data>
+    <data name="TitleTextNotificationByPreference" xml:space="preserve">
+        <value>&lt;b&gt;Появилась встреча по вашим предпочтениям.&lt;/b&gt;
+
+</value>
+    </data>
+    <data name="TitleTextMeetingReminder" xml:space="preserve">
+        <value>Дружелюбное напоминание, встреча &lt;b&gt;#{{ meeting.id }}&lt;/b&gt; начнется в {{ meeting.time }}.
+
+</value>
+    </data>
+    <data name="TitleTextNobodyJoinsMeeting" xml:space="preserve">
+        <value>К сожалению пока никто не присоединился к встрече #{{ meeting.id}} которая начнется в {{meeting.time}}.
+
+</value>
+    </data>
+    <data name="MeetingMessage" xml:space="preserve">
+        <value>&lt;u&gt;Встеча #{0}&lt;/u&gt;
+Участник встречи {1} отправил сообщение в чат:
+&lt;b&gt;{2}&lt;/b&gt;.</value>
+    </data>
+    <data name="ButtonTextOpenWebApp" xml:space="preserve">
+        <value>ОТКРЫТЬ ВЕБ-ВЕРСИЮ</value>
+    </data>
+
+    <data name="ButtonTextUpTo5Min" xml:space="preserve">
+        <value>ДО 5 МИНУТ</value>
+    </data>
+    <data name="ButtonTextUpTo10Min" xml:space="preserve">
+        <value>ДО 10 МИНУТ</value>
+    </data>
+    <data name="ButtonTextUpTo20Min" xml:space="preserve">
+        <value>ДО 20 МИНУТ</value>
+    </data>
+    <data name="TitleTextHowLateWillYouBe" xml:space="preserve">
+        <value>На сколько вы опоздаете?</value>
+    </data>
+    <data name="ButtonTextWilBeLate" xml:space="preserve">
+        <value>ОПОЗДАЮ</value>
+    </data>
+    <data name="ParticipantWillBeLate" xml:space="preserve">
+        <value>Участиник встречи {0} опоздает на {1} минут. 
+
+{2}</value>
+    </data>
+    <data name="TitleTextMessageSent" xml:space="preserve">
+        <value>Сообщение отправлено всем участникам встречи.</value>
+    </data>
+    <data name="ButtonTextReplyInChat" xml:space="preserve">
+        <value>ОТВЕТИТЬ В ЧАТЕ</value>
+    </data>
+    <data name="TitleTextTypeOfMeeting" xml:space="preserve">
+        <value>Какой тип встречи вы хотели бы создать?</value>
+    </data>
+    <data name="ButtonTextOnline" xml:space="preserve">
+        <value>ОНЛАЙН</value>
+    </data>
+    <data name="ButtonTextOffline" xml:space="preserve">
+        <value>ОФФЛАЙН</value>
+    </data>
+    <data name="TitleTextOfflineMeeting" xml:space="preserve">
+        <value>Для того чтобы создать оффлайн-встречу, пожалуйста, используйте Telegram Web App, стандартный Telegram бот не позволяет ввести всю необходимую информацию.</value>
+    </data>
+    <data name="TitleTextFinishRegistration" xml:space="preserve">
+        <value>Пожалуйста зарегистрируйтесь чтобы продолжить🙏</value>
+    </data>
+</root>

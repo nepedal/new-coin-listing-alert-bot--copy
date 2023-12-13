@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="WantPracticeLanguage" xml:space="preserve">
+        <value>Do you want to practice &lt;b&gt;{0}&lt;/b&gt; language?</value>
+    </data>
+    <data name="ButtonTextIAmReady" xml:space="preserve">
+        <value>I`M READY 🚀</value>
+    </data>
+    <data name="AlreadyRegistered" xml:space="preserve">
+        <value>You've already registered!</value>
+    </data>
+    <data name="ButtonTextYes" xml:space="preserve">
+        <value>YES</value>
+    </data>
+    <data name="ButtonTextNo" xml:space="preserve">
+        <value>NO</value>
+    </data>
+    <data name="LanguageIsNotRecognized" xml:space="preserve">
+        <value>Language was not recognized, make sure it's written correctly</value>
+    </data>
+    <data name="SelectMeetingLanguageYouWouldLikeToPractice" xml:space="preserve">
+        <value>Please, select language you would like to practice</value>
+    </data>
+    <data name="LanguageSet" xml:space="preserve">
+        <value>The language you practice has been set to &lt;b&gt;{0}&lt;/b&gt;</value>
+    </data>
+    <data name="PracticeEnglishAsking" xml:space="preserve">
+        <value>Would you like to practice &lt;b&gt;English&lt;/&gt; language?</value>
+    </data>
+    <data name="CMLanguageLevelAsk" xml:space="preserve">
+        <value>Do you want to create &lt;b&gt;{0}&lt;/b&gt; level meeting?</value>
+    </data>
+    <data name="ButtonTextCancel" xml:space="preserve">
+        <value>CANCEL</value>
+    </data>
+    <data name="ShowAllMeetings" xml:space="preserve">
+        <value>SHOW MEETINGS LIST FOR {0}</value>
+    </data>
+    <data name="SelectTopic" xml:space="preserve">
+        <value>Please select topic:</value>
+    </data>
+    <data name="ButtonTextRandomTopic" xml:space="preserve">
+        <value>RANDOM TOPIC</value>
+    </data>
+    <data name="ViewTopicQuestions" xml:space="preserve">
+        <value>What topic would you like to discuss on the call? Select a topic to see its questions</value>
+    </data>
+    <data name="SelectMeetingTime" xml:space="preserve">
+        <value>Select meeting time</value>
+    </data>
+    <data name="SelectMeetingLanguageLevel" xml:space="preserve">
+        <value>Select meeting language level</value>
+    </data>
+    <data name="HowManyPeople" xml:space="preserve">
+        <value>How many people can participate in the meeting?</value>
+    </data>
+    <data name="DbUpdateException" xml:space="preserve">
+        <value> ❌ You can't create multiple meetings with the same date and time, try specifying another time. ❌ 
+
+Here's what you entered:</value>
+    </data>
+    <data name="MeetingCreated" xml:space="preserve">
+        <value>&lt;b&gt;&lt;u&gt;Meeting created, we will let you know when anybody joins the meeting!&lt;/u&gt;&lt;/b&gt;</value>
+    </data>
+    <data name="ButtonTextPickAnotherDate" xml:space="preserve">
+        <value>📅 PICK ANOTHER DATE</value>
+    </data>
+    <data name="ButtonTextPickAnotherTime" xml:space="preserve">
+        <value>🕑 PICK ANOTHER TIME</value>
+    </data>
+    <data name="ButtonTextConfirm" xml:space="preserve">
+        <value>CONFIRM</value>      
+    </data>
+    <data name="SelectMeetingDate" xml:space="preserve">
+        <value>Select meeting date</value>
+    </data>
+    <data name="SelectOneOfLanguages" xml:space="preserve">
+        <value>Select one of languages to create meeting</value>
+    </data>
+    <data name="JMSelectLanguageLevel" xml:space="preserve">
+        <value>Do you want to join &lt;b&gt;{0}&lt;/b&gt; level meeting?</value>
+    </data>
+    <data name="AlreadyJoined" xml:space="preserve">
+        <value>You've already joined this meeting</value>
+    </data>
+    <data name="ButtonTextPickAnotherLanguage" xml:space="preserve">
+        <value>PICK ANOTHER LANGUAGE</value>
+    </data>
+    <data name="ButtonTextPickAnotherLanguageLevel" xml:space="preserve">
+        <value>PICK ANOTHER LEVEL</value>
+    </data>
+    <data name="NoMatchingMeetings" xml:space="preserve">
+        <value>Unfortunately, no meetings by your preferences were found in {0}</value>
+    </data>
+    <data name="SelectMeetingLanguage" xml:space="preserve">
+        <value>Select meeting language</value>
+    </data>
+    <data name="MeetingNotFound" xml:space="preserve">
+        <value>The meeting was not found.</value>
+    </data>
+    <data name="MeetingAlreadyCanceled" xml:space="preserve">
+        <value>The meeting has already been cancelled</value>
+    </data>
+    <data name="MeetingCanceled" xml:space="preserve">
+        <value>❌ The meeting &lt;b&gt;#{0}&lt;/b&gt; has been cancelled ❌
+</value>
+    </data>
+    <data name="CantLeaveMeeting" xml:space="preserve">
+        <value>Sorry! You can't leave a meeting you never joined</value>
+    </data>
+    <data name="OperationDeclined" xml:space="preserve">
+        <value>Operation declined</value>
+    </data>
+    <data name="ContactUs" xml:space="preserve">
+        <value>If you have any questions, please contact {0}</value>
+    </data>
+    <data name="InitialMessage" xml:space="preserve">
+        <value>Hi✋
+
+I'll help you connect with real language learners at your level and with similar interests to practice speaking skills in Google Meet.
+
+Before we get started, I will ask you for some information.</value>
+    </data>
+    <data name="LanguageLevelSet" xml:space="preserve">
+        <value>Language level has been set to &lt;b&gt;{0}&lt;/b&gt;</value>
+    </data>
+    <data name="TitleTextSelectLanguageLevel" xml:space="preserve">
+        <value>Select your current language level</value>
+    </data>
+    <data name="ButtonTextShowAllLevels" xml:space="preserve">
+        <value>SHOW MEETINGS OF ALL LEVELS</value>
+    </data>
+    <data name="UserLeftMeetingTemplate" xml:space="preserve">
+        <value>🌍 User &lt;b&gt;{{ username }} #{{ meeting.user_id }}&lt;/b&gt; left the meeting.
+
+ 📌 &lt;b&gt;&lt;u&gt;Meeting #{{ meeting.meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 📅 &lt;b&gt;Date:&lt;/b&gt; {{ practice_date}} 
+
+ 🕑 &lt;b&gt;Time:&lt;/b&gt; {{ practice_time }}  {{ time_zone }}</value>
+    </data>
+    <data name="CreateMeetingTemplate" xml:space="preserve">
+        <value>🌍 &lt;b&gt;{{ title }}&lt;/b&gt;
+
+ 📌 &lt;b&gt;&lt;u&gt;Meeting #{{ meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 🌐 &lt;b&gt;Language:&lt;/b&gt; &lt;u&gt;{{ language_name }}&lt;/u&gt;
+
+ 🗒 &lt;b&gt;Language level:&lt;/b&gt; &lt;u&gt;{{ language_level }}&lt;/u&gt;
+
+ 💬 &lt;b&gt;Topic:&lt;/b&gt; &lt;u&gt;{{ topic }}&lt;/u&gt;
+
+ 👨‍👩‍👧‍👦 &lt;b&gt;Max people number:&lt;/b&gt; &lt;u&gt;{{ people_number }}&lt;/u&gt;
+
+ 📅 &lt;b&gt;Date:&lt;/b&gt; &lt;u&gt;{{ date }} &lt;/u&gt;
+
+ 🕑 &lt;b&gt;Time:&lt;/b&gt; &lt;u&gt;{{ time }} &lt;/u&gt; {{ time_zone }}</value>
+    </data>
+    <data name="QuestionsTemplate" xml:space="preserve">
+        <value>
+Questions for topic &lt;b&gt;{{ topic_name }}&lt;/b&gt;
+&lt;b&gt;Description {{ topic_description }} &lt;/b&gt;</value>
+    </data>
+    <data name="YouJoinedMeeting" xml:space="preserve">
+        <value>🌍 &lt;b&gt;&lt;u&gt;You've joined the meeting!&lt;/u&gt;&lt;/b&gt;
+
+</value>
+    </data>
+    <data name="UserJoinedMeeting" xml:space="preserve">
+        <value>🌍 User &lt;b&gt;{{ user_name }} #{{ user_id }}&lt;/b&gt; joined the meeting.
+
+ 📌 &lt;b&gt;&lt;u&gt;Meeting #{{ meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 📅 &lt;b&gt;Date:&lt;/b&gt; {{ practice_date }} 
+
+ 🕑 &lt;b&gt;Time:&lt;/b&gt; {{ practice_time }}  {{ time_zone }}</value>
+    </data>
+    <data name="LocationSet" xml:space="preserve">
+        <value>Location has been successfully updated, your location is &lt;b&gt;{0}&lt;/b&gt;, your timezone is &lt;b&gt;{1}&lt;/b&gt;. 
+
+You can always change your location by executing {2} command</value>
+    </data>
+    <data name="UnableResolveLocation" xml:space="preserve">
+        <value>Unable to resolve location, please, try later</value>
+    </data>
+    <data name="CouldNotResolveLocation" xml:space="preserve">
+        <value>Couldn't determine your location, try to specify your address in the following format: &lt;b&gt;Country, City&lt;/b&gt;</value>
+    </data>
+    <data name="CreateMeetingAskLocation" xml:space="preserve">
+        <value>To make it possible to display meeting`s &lt;b&gt;date and time in your timezone&lt;/b&gt; and &lt;b&gt;show partners country&lt;/b&gt;, we need to know your location.
+
+Type your location in meetingChatMessage input in the following format: &lt;b&gt;Country, City&lt;/b&gt;, for example: &lt;b&gt;USA, New York&lt;/b&gt;</value>
+    </data>
+    <data name="HelpFindPartner" xml:space="preserve">
+        <value>I can help you find a partner for practicing languages.
+You can control me by sending these commands:</value>
+    </data>
+    <data name="WhatWouldYouLikeToChange" xml:space="preserve">
+        <value>What would you like to change?</value>
+    </data>
+    <data name="DescriptionCreateMeeting" xml:space="preserve">
+        <value>CREATE MEETING</value>
+    </data>
+    <data name="DescriptionRandomTopic" xml:space="preserve">
+        <value>Random topic with questions</value>
+    </data>
+    <data name="DescriptionJoinMeeting" xml:space="preserve">
+        <value>JOIN MEETING</value>
+    </data>
+    <data name="DescriptionMyMeetings" xml:space="preserve">
+        <value>VIEW MY MEETINGS</value>
+    </data>
+    <data name="DescriptionSettings" xml:space="preserve">
+        <value>SETTINGS</value>
+    </data>
+    <data name="DescriptionSetMeetingLanguage" xml:space="preserve">
+        <value>SET PRACTICE LANGUAGE</value>
+    </data>
+    <data name="DescriptionSetMeetingLanguageLevel" xml:space="preserve">
+        <value>SET PRACTICE LANGUAGE LEVEL</value>
+    </data>
+    <data name="DescriptionSetYourLocation" xml:space="preserve">
+        <value>SET LOCATION</value>
+    </data>
+    <data name="DescriptionContactUs" xml:space="preserve">
+        <value>Contact us</value>
+    </data>
+    <data name="DescriptionSetGender" xml:space="preserve">
+        <value>SET GENDER</value>
+    </data>
+    <data name="ButtonTextFemale" xml:space="preserve">
+        <value>FEMALE</value>
+    </data>
+    <data name="ButtonTextMale" xml:space="preserve">
+        <value>MALE</value>
+    </data>
+    <data name="ButtonTextSkipGender" xml:space="preserve">
+        <value>PREFER NOT TO MENTION</value>
+    </data>
+    <data name="GenderText" xml:space="preserve">
+        <value>Set gender</value>
+    </data>
+    <data name="GenderSet" xml:space="preserve">
+        <value>Gender &lt;b&gt;{0}&lt;/b&gt; successfully set.</value>
+    </data>
+    <data name="ButtonTextLeaveMeeting" xml:space="preserve">
+        <value>LEAVE MEETING</value>
+    </data>
+    <data name="ViewMeetingTemplate" xml:space="preserve">
+        <value>📌 &lt;b&gt;&lt;u&gt;Meeting #{{ meeting.id }}&lt;/u&gt;&lt;/b&gt;
+
+📅 &lt;b&gt;Date:&lt;/b&gt; &lt;u&gt;{{ meeting.date }} &lt;/u&gt;
+
+🕑 &lt;b&gt;Time:&lt;/b&gt; &lt;u&gt;{{ meeting.time }}&lt;/u&gt; {{ meeting.time_zone }}
+
+🌐 &lt;b&gt;Language:&lt;/b&gt; &lt;u&gt;{{ meeting.language }}&lt;/u&gt;
+
+🗒 &lt;b&gt;Language level:&lt;/b&gt; &lt;u&gt;{{ meeting.language_level }}&lt;/u&gt;
+
+{{if(meeting.topic_name == null)}}💬 &lt;b&gt;Topic:&lt;/b&gt; &lt;u&gt;Topic not selected&lt;/u&gt;{{else}}💬 &lt;b&gt;Topic:&lt;/b&gt; &lt;u&gt;{{ meeting.topic_name }}&lt;/u&gt;{{end}}
+
+👨‍👩‍👧‍👦 &lt;b&gt;Free&lt;/b&gt;&lt;u&gt;{{meeting.max_participants_count - meeting.participants_count }} &lt;/u&gt;&lt;b&gt;from&lt;/b&gt; &lt;u&gt;{{ meeting.max_participants_count }} &lt;/u&gt;&lt;b&gt;seats&lt;/b&gt;
+
+🏞 &lt;b&gt;Creator&lt;/b&gt; {{ meeting.user_id }} from &lt;u&gt;{{ meeting.creator_country }}, {{ meeting.creator_gender }}&lt;/u&gt;</value>
+    </data>
+    <data name="ButtonTextJoin" xml:space="preserve">
+        <value>JOIN</value>
+    </data>
+    <data name="GenderNotSet" xml:space="preserve">
+        <value>NOT SET</value>
+    </data>
+    <data name="GenderFemale" xml:space="preserve">
+        <value>Female</value>
+    </data>
+    <data name="GenderMale" xml:space="preserve">
+        <value>Male</value>
+    </data>
+    <data name="AuthorizeWithGoogle" xml:space="preserve">
+        <value>At Lingo Practices we automate processes to make the user experience as convenient as possible.
+
+As a part of automation Lingo Practices auto-creates Google Meet meetings allowing partners to meet without having to set up on online meetings themselves.</value>
+    </data>
+    <data name="AuthorizeWithGoogleSuccess" xml:space="preserve">
+        <value>Congrats! 
+
+Now you can create unlimited number of meetings to practice language!</value>
+    </data>
+    <data name="GoogleMeetTitle" xml:space="preserve">
+        <value>Language practice</value>
+    </data>
+    <data name="AlreadyAuthorizedWithGoogle" xml:space="preserve">
+        <value>You've already been authorized with Google</value>
+    </data>
+    <data name="StartBotCommand" xml:space="preserve">
+        <value>Execute {0} command to start the bot</value>
+    </data>
+    <data name="LogIn" xml:space="preserve">
+        <value>Sign in with Google</value>
+    </data>
+    <data name="ButtonTextNext" xml:space="preserve">
+        <value>NEXT TOPIC ➡️</value>
+    </data>
+    <data name="ForgotToProvideCalendarPermissions" xml:space="preserve">
+        <value>Apparently you have not provided access to your calendar🤔
+
+In order for us to create a Google Meet meetings on your behalf, we need access to your calendar.
+
+Please log in again to grant access to the calendar😎</value>
+    </data>
+    <data name="SomethingWentWrong" xml:space="preserve">
+        <value>Something went wrong, we are already working on fixing this error. If the error persists, please contact {0}</value>
+    </data>
+    <data name="DescriptionSetInterfaceLanguage" xml:space="preserve">
+        <value>SET INTERFACE LANGUAGE</value>
+    </data>
+    <data name="InterfaceLanguageSet" xml:space="preserve">
+        <value>Interface language successfully set.</value>
+    </data>
+    <data name="AvailableUILanguages" xml:space="preserve">
+        <value>Available interface languages.</value>
+    </data>
+    <data name="JoinGoogleMeetMeeting" xml:space="preserve">
+        <value>JOIN GOOGLE MEET MEETING</value>
+    </data>
+    <data name="ButtonTextViewTopicQuestions" xml:space="preserve">
+        <value>VIEW TOPIC QUESTIONS</value>
+    </data>
+    <data name="NotPendingMeetings" xml:space="preserve">
+        <value>You don't have any active meetings yet</value>
+    </data>
+    <data name="SettingGenderTitle" xml:space="preserve">
+        <value>What's your gender?</value>
+    </data>
+    <data name="ButtonTextCreateNewMeeting" xml:space="preserve">
+        <value>CREATE NEW MEETING</value>
+    </data>
+    <data name="CantJoinMeetingSameTime" xml:space="preserve">
+        <value>❌You can't join the meeting because you already have the meeting for that date and time❌</value>
+    </data>
+    <data name="SelectAnotherMeeting" xml:space="preserve">
+        <value>Select another meeting</value>
+    </data>
+    <data name="DescriptionCreateTopic" xml:space="preserve">
+        <value>CREATE OWN MEETING TOPIC</value>
+    </data>
+    <data name="TitleTextTopicNameOnModerating" xml:space="preserve">
+        <value>Your topic is on moderating. After we review your topic you will receive notification about moderation result.
+
+Usually it takes less than one business day</value>
+    </data>
+    <data name="TitleTextUserTriedAddTopic" xml:space="preserve">
+        <value>{0} wants to create topic  &lt;b&gt;&lt;u&gt;{1}&lt;/u&gt;&lt;/b&gt;, approve?</value>
+    </data>
+    <data name="TitleTextWriteTopicName" xml:space="preserve">
+        <value>Please, enter topic name.</value>
+    </data>
+    <data name="TitleTextTopicAlreadyExist" xml:space="preserve">
+        <value>Topic with the same name already exist.</value>
+    </data>
+    <data name="TitleTextTopicCreated" xml:space="preserve">
+        <value>Topic with name &lt;b&gt;{0}&lt;/b&gt; successfully created, let`s add some questions.
+Do you want to add question to topic?</value>
+    </data>
+    <data name="TopicQuestionAdded" xml:space="preserve">
+        <value>Topic question &lt;b&gt;&lt;u&gt;{0}&lt;/u&gt;&lt;/b&gt; successfully added.</value>
+    </data>
+    <data name="TitleTextWriteTopicQuestion" xml:space="preserve">
+        <value>Please write topic question.</value>
+    </data>
+    <data name="TitleTextThankYou" xml:space="preserve">
+        <value>Thank you for making us better!</value>
+    </data>
+    <data name="ButtonTextAddQuestion" xml:space="preserve">
+        <value>ADD QUESTION</value>
+    </data>
+    <data name="ButtonTextAddOneMore" xml:space="preserve">
+        <value>ADD ONE MORE</value>
+    </data>
+    <data name="ButtonTextComplete" xml:space="preserve">
+        <value>COMPLETE</value>
+    </data>
+    <data name="ButtonTextTryAgainTopicName" xml:space="preserve">
+        <value>CHANGE TOPIC NAME</value>
+    </data>
+    <data name="TitleTextCantApproveQuestion" xml:space="preserve">
+        <value>Unfortunately we can`t approve question &lt;b&gt;{0}&lt;/b&gt;.</value>
+    </data>
+    <data name="TitleTextQuestionIsOnModerating" xml:space="preserve">
+        <value>Question is on moderating.</value>
+    </data>
+    <data name="TitleTextUserWantsAddQuestion" xml:space="preserve">
+        <value>{0} wants to add question &lt;b&gt;&lt;u&gt;{1}&lt;/u&gt;&lt;/b&gt;, approve?</value>
+    </data>
+    <data name="CreatorCancelledMeeting" xml:space="preserve">
+        <value>🌍 User &lt;b&gt;{{ username }} #{{ meeting.user_id }}&lt;/b&gt; cancelled the meeting.
+
+ 📌 &lt;b&gt;&lt;u&gt;Meeting #{{ meeting.meeting_id }}&lt;/u&gt;&lt;/b&gt;
+
+ 📅 &lt;b&gt;Date:&lt;/b&gt; {{ practice_date}} 
+
+ 🕑 &lt;b&gt;Time:&lt;/b&gt; {{ practice_time }}  {{ time_zone }}
+</value>
+    </data>
+    <data name="TitleTextCantApproveTopic" xml:space="preserve">
+        <value>Unfortunately we can`t approve  topic &lt;b&gt;({0})&lt;/b&gt;, please try different one.</value>
+    </data>
+    <data name="SignUpSuccess" xml:space="preserve">
+        <value>So, how exactly does it all work? It’s not all rocket science! All you need to do is join any meeting you like. If there’s nothing that catches your eye, you can always create your own meeting by choosing language, language level, date, time, meeting topic and number of people. See, you can be your own boss here 😎
+
+We'll notify you if anybody creates meeting with same language and language level you've specified in the previous steps, but you can always change your notification preferences by visiting Settings page.
+            
+Happy practicing!😊</value>
+    </data>
+    <data name="TitleTextTopicNotSelected" xml:space="preserve">
+        <value>Topic not selected</value>
+    </data>
+    <data name="ButtonTextWithoutTopic" xml:space="preserve">
+        <value>WITHOUT TOPIC</value>
+    </data>
+    <data name="ButtonTextTryAgainTopicQuestion" xml:space="preserve">
+        <value>CHANGE QUESTION</value>
+    </data>
+    <data name="ButtonTextSetNotificationPreferences" xml:space="preserve">
+        <value>NOTIFICATIONS</value>
+    </data>
+    <data name="TitleTextNotificationCreated" xml:space="preserve">
+        <value>Notification has created, we will definitely notify you if there is a suitable meeting! 
+Would you like to create another notification?</value>
+    </data>
+    <data name="TitleTextNotificationAlreadyExist" xml:space="preserve">
+        <value>Notification with the same parameters already exist. Would you like to create another notification?</value>
+    </data>
+    <data name="TitleTextNotificationPreferences" xml:space="preserve">
+        <value>Choose one or more levels you practice, we will notify you when someone creates meeting for the specified levels</value>
+    </data>
+    <data name="SelectLanguageNotificationPreferences" xml:space="preserve">
+        <value>Choose the language you practice, we will notify you when someone creates a meeting in the specified language</value>
+    </data>
+    <data name="ButtonTextNextMeeting" xml:space="preserve">
+        <value>NEXT MEETING ➡️</value>
+    </data>
+    <data name="ButtonTextPreviousMeeting" xml:space="preserve">
+        <value>⬅️ PREVIOUS MEETING</value>
+    </data>
+    <data name="ButtonTextNextTopics" xml:space="preserve">
+        <value>NEXT TOPICS ➡️</value>
+    </data>
+    <data name="ButtonTextPreviousTopics" xml:space="preserve">
+        <value>⬅ ️PREVIOUS TOPICS</value>
+    </data>
+    <data name="ButtonTextPreviousMonth" xml:space="preserve">
+        <value>⬅️ PREVIOUS MONTH</value>
+    </data>
+    <data name="ButtonTextNextMonth" xml:space="preserve">
+        <value>NEXT MONTH ➡️</value>
+    </data>
+    <data name="NoFreePlacesWhenJoin" xml:space="preserve">
+        <value>❌You can`t join the meeting because there are not free places❌
+&lt;u&gt;&lt;b&gt;You are always able to create your own meeting.&lt;/b&gt;&lt;/u&gt;</value>
+    </data>
+    <data name="TitleTextPreferncesEdited" xml:space="preserve">
+        <value>
+
+Notifications for &lt;u&gt;{0}, {1}&lt;/u&gt; {2}</value>
+    </data>
+    <data name="ButtonTextToSettingMenu" xml:space="preserve">
+        <value>BACK TO SETTINGS MENU</value>
+    </data>
+    <data name="DescriptionTextSetGender" xml:space="preserve">
+        <value>SET GENDER</value>
+    </data>
+    <data name="ButtonTextSetUp" xml:space="preserve">
+        <value>SET UP</value>
+    </data>
+    <data name="ButtonTextGoToMenu" xml:space="preserve">
+        <value>GO TO MENU</value>
+    </data>
+    <data name="ButtonTextChangeNotification" xml:space="preserve">
+        <value>NOTIFICATIONS SETTINGS</value>
+    </data>
+    <data name="CantJoinMeetingIsInProgressOrEnded" xml:space="preserve">
+        <value>Unfortunately you can`t join meeting as it`s already in progress or ended.</value>
+    </data>
+    <data name="ButtonTextIWillJoinNextTime" xml:space="preserve">
+        <value>I WILL JOIN NEXT TIME</value>
+    </data>
+    <data name="MessageTextSetLocation" xml:space="preserve">
+        <value>In order for me to be able to show meetings date and time in your time zone, I need to know your location.
+
+You can set location by executing /setlocation command.</value>
+    </data>
+    <data name="NotificationsDisabled" xml:space="preserve">
+        <value>&lt;b&gt;are disabled&lt;/b&gt;</value>
+    </data>
+    <data name="NotificationsEnabled" xml:space="preserve">
+        <value>&lt;b&gt;are enabled&lt;/b&gt;</value>
+    </data>
+    <data name="CouldNotCreateGoogleMeetMeeting" xml:space="preserve">
+        <value>Could not create google meet meeting. Try again later or try to re-authorize with Google</value>
+    </data>
+    <data name="ButtonTextTurnOffNotifications" xml:space="preserve">
+        <value>TURN OFF NOTIFICATIONS</value>
+    </data>
+    <data name="TitleTextTurnOffNotificationFor" xml:space="preserve">
+        <value>Turn off notification for:</value>
+    </data>
+    <data name="ButtonTextOneDay" xml:space="preserve">
+        <value>ONE DAY</value>
+    </data>
+    <data name="ButtonTextOneWeek" xml:space="preserve">
+        <value>ONE WEEK</value>
+    </data>
+    <data name="ButtonTextOneMonth" xml:space="preserve">
+        <value>ONE MONTH</value>
+    </data>
+    <data name="TitleTextMeetingNotificationTurnedOff" xml:space="preserve">
+        <value>All new meeting notifications were turned off for a {0}</value>
+    </data>
+    <data name="TitleTextTurnOnNotificationQuestion" xml:space="preserve">
+        <value>Do you want to turn on notification by preferences?</value>
+    </data>
+    <data name="ButtonTextYesTurnOn" xml:space="preserve">
+        <value>YES, TURN ON</value>
+    </data>
+    <data name="JoinMeetingCanceled" xml:space="preserve">
+        <value>Meeting creator &lt;b&gt;canceled meeting&lt;/b&gt;. 
+&lt;u&gt;&lt;b&gt;You are always able to create your own meeting.&lt;/b&gt;&lt;/u</value>
+    </data>
+    <data name="MeetingAlreadyBegun" xml:space="preserve">
+        <value>You cannot leave the meeting that has already begun or ended.</value>
+    </data>
+    <data name="RequestLimitMessage" xml:space="preserve">
+        <value>Please wait, we are still handling your request.</value>
+    </data>
+    <data name="ButtonTextGoBack" xml:space="preserve">
+        <value>GO BACK</value>
+    </data>
+    <data name="TitleTextNotificationByPreference" xml:space="preserve">
+        <value>&lt;b&gt;A meeting by your preferences has appeared.&lt;/b&gt;
+
+</value>
+    </data>
+    <data name="TitleTextMeetingReminder" xml:space="preserve">
+        <value>Friendly reminder, your meeting &lt;b&gt;#{{ meeting.id }}&lt;/b&gt; starts soon at {{ meeting.time }}.
+
+</value>
+    </data>
+    <data name="TitleTextNobodyJoinsMeeting" xml:space="preserve">
+        <value>Friendly reminder, unfortunately no one joined meeting #{{meeting.id}} yet, which will start at {{meeting.time}}.
+
+</value>
+    </data>
+    <data name="MeetingMessage" xml:space="preserve">
+        <value>&lt;u&gt;Meeting #{0}&lt;/u&gt;
+Participant {1} sent a message to the chat:
+&lt;b&gt;{2}&lt;/b&gt;.</value>
+    </data>
+    <data name="ButtonTextOpenWebApp" xml:space="preserve">
+        <value>OPEN WEB APP</value>
+    </data>
+
+    <data name="ButtonTextUpTo5Min" xml:space="preserve">
+        <value>UP TO 5 MINUTES</value>
+    </data>
+    <data name="ButtonTextUpTo10Min" xml:space="preserve">
+        <value>UP TO 10 MINUTES</value>
+    </data>
+    <data name="ButtonTextUpTo20Min" xml:space="preserve">
+        <value>UP TO 20 MINUTES </value>
+    </data>
+    <data name="TitleTextHowLateWillYouBe" xml:space="preserve">
+        <value>How late will you be?</value>
+    </data>
+    <data name="ButtonTextWilBeLate" xml:space="preserve">
+        <value>WILL BE LATE</value>
+    </data>
+    <data name="ParticipantWillBeLate" xml:space="preserve">
+        <value>Meeting participant {0} will be {1} minutes late.
+
+{2}</value>
+    </data>
+    <data name="TitleTextMessageSent" xml:space="preserve">
+        <value>Message sent to all meeting`s participants.</value>
+    </data>
+    <data name="ButtonTextReplyInChat" xml:space="preserve">
+        <value>REPLY IN CHAT</value>
+    </data>
+    <data name="TitleTextTypeOfMeeting" xml:space="preserve">
+        <value>Which type of meeting would you like to create?</value>
+    </data>
+    <data name="ButtonTextOnline" xml:space="preserve">
+        <value>ONLINE</value>
+    </data>
+    <data name="ButtonTextOffline" xml:space="preserve">
+        <value>OFFLINE</value>
+    </data>
+    <data name="TitleTextOfflineMeeting" xml:space="preserve">
+        <value>In order to create offline meeting, please use Telegram Web App, standard Telegram Bot doesn't allow to enter all required info.</value>
+    </data>
+    <data name="TitleTextFinishRegistration" xml:space="preserve">
+        <value>Please finish registration to continue🙏</value>
+    </data>
+</root>

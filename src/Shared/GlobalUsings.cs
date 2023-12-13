@@ -1,0 +1,17 @@
+﻿global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using AutoMapper;
+global using AutoMapper.Internal;
+global using JetBrains.Annotations;
+global using System.ComponentModel;
+global using System.Reflection;
+global using NJsonSchema.Generation;
+global using Newtonsoft.Json;
+global using System.Security.Cryptography;
+global using System.Text;
+global using Shared.Models;
+global using System.ComponentModel.DataAnnotations;
+global using System.Runtime.Serialization;
+global using Shared.Errors;
+global using FluentValidation.Results;
+global using System.Text.Json;

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper"/>
+        <PackageReference Include="FluentValidation"/>
+        <PackageReference Include="JetBrains.Annotations"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting"/>
+        <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations"/>
+        <PackageReference Include="Newtonsoft.Json"/>
+        <PackageReference Include="NSwag.Generation"/>
+        <PackageReference Include="Roslynator.Analyzers">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>
